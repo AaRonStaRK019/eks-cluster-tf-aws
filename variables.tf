@@ -8,9 +8,14 @@ variable "vpc_cidr" {
     default     = "10.0.0.0/16"
 }
 
-variable "kubernetes_version" {
-    description = "kubernetes version"
-    default     = "latest"
+# variable "kubernetes_version" {
+#     description = "kubernetes version"
+#     default     = "2.35.1"
+# }
+
+variable "cluster_version" {
+    description = "cluster version"
+    default     = "1.31"
 }
 
 variable "instance_type" {
