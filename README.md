@@ -1,4 +1,4 @@
-# EKS Cluster Infrastructure Deployment
+# AWS EKS Cluster Infrastructure Deployment With Terraform
 
 This guide outlines the steps for deploying an Amazon Elastic Kubernetes Service (EKS) cluster using Terraform.
 
